@@ -7,11 +7,15 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 .pink {
     color: rgb(200, 47, 72);
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150 px;
 }
@@ -19,6 +23,7 @@ section {
 .half-width {
     width: 60%;
     padding-left: 5%;
+
 }
 
 .half-width img {
@@ -45,4 +50,35 @@ section {
     background-image: url(aye-folder/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-area {
+    background-image: url(aye-folder/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 20px;
+    border-radius: 10px;
+    border-left: 7px salmon;
+
+
+}
+
+#full-stake-devo {
+    border-left: 7px solid tomato;
+}
+
+#baby-web {
+    border-right: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
+
 }
