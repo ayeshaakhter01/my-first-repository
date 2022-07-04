@@ -13,6 +13,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 150 px;
 }
 
 .half-width {
@@ -27,7 +28,7 @@ section {
 
 .link-button {
     text-decoration: none;
-    background-color: orange;
+    background-image: linear-gradient(orange, tomato);
     color: white;
     padding: 10px 40px;
     border-radius: 7px;
@@ -38,4 +39,10 @@ section {
 .top-banner {
     background-image: url(aye-folder/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url(aye-folder/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
